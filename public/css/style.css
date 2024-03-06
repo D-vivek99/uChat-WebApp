@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(246, 246, 246);
+    margin: 15px;
+}
+
+.top{
+    display: block; 
+    margin: auto;
+}
+
+img{
+    height: 75px;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+#main-heading{
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.5px;
+}
+
+.container1{
+    background-image: url("https://images.unsplash.com/photo-1502581827181-9cf3c3ee0106?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHN0YXIlMjBza3l8ZW58MHx8MHx8fDA%3D");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.85;
+    border: 2px solid grey;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 80vh;
+    height: 500px;
+    box-shadow: 0 0 20px rgb(93, 93, 93);
+    overflow-y: auto;
+    font-size: 14px;
+}
+
+.msg{
+    margin: 5px;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.left{
+    background-color: white;
+    float: left;
+    clear: both;
+    margin-right: 25%;
+    border-bottom-left-radius: 0;
+}
+
+.right{
+    float: right;
+    clear: both;
+    background-color: rgb(181, 241, 222);
+    margin-left: 25%;
+    border-bottom-right-radius: 0;
+}
+
+.center{
+    margin: 10px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: white;
+    clear: both;
+}
+
+input{
+    max-width: 90vh; 
+    width: 82%; 
+    border-radius: 7px; 
+    padding: 0 4px;
+}
+
+#button-submit{
+    width: 16%; 
+    margin-left: 6px;
+    /* cursor: pointer; */
+    border-radius: 7px;
+    background-color: rgb(213, 255, 204);
+}
+
+#send-icon{
+    color: #000833; 
+    margin-left: 4px; 
+    align-self: center;
+}
+
+#submit-form{
+    display: flex; 
+    justify-content: center;
+}
+
+.send{
+    display: inline-flex;
+    margin-top: 3px;
+    height: 5vh;
+    max-width: 80vh; 
+    width: 100%;
+}
